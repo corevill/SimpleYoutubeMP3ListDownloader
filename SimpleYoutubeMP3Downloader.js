@@ -4,14 +4,13 @@ var i = 0;
 
 console.log("Simple Youtube MP3 Downloader!");
 
-const canciones = [
-    {videoId: "ID_YOUTUBE", name: "MI_CANCION.mp3"}
+const songs = [
+    {videoId: "ID_YOUTUBE_VIDE", name: "MY_SONG.mp3"}
 ];
 var i = 0;
 
-canciones.forEach(cancion => {
-    console.log("DESCARGAR DE CANCIÓN: " + cancion.name )
-    dl.getMP3(cancion, function(err,res) {  
+songs.forEach(song => {
+    dl.getMP3(song, function(err,res) {  
         i++;
         if(err)
             throw err;
