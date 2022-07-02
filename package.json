@@ -1,0 +1,16 @@
+{
+  "name": "simpleyoutubemp3downloader",
+  "version": "1.0.0",
+  "description": "Simple Youtube MP3 Downloader",
+  "main": "SimpleYoutubeMP3Downloader.js",
+  "dependencies": {
+    "youtube-mp3-downloader": "^0.7.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "jhcore",
+  "license": "ISC"
+}
